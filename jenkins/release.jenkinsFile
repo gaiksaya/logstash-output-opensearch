@@ -1,4 +1,4 @@
-lib = library(identifier: 'jenkins@fix-ruby', retriever: modernSCM([
+lib = library(identifier: 'jenkins@test', retriever: modernSCM([
     $class: 'GitSCMSource',
     remote: 'https://github.com/gaiksaya/opensearch-build-libraries-1.git',
 ]))
